@@ -1,0 +1,18 @@
+ALTER TABLE assisstant ADD CONSTRAINT pk_assisstant PRIMARY KEY ( oid );
+ALTER TABLE building(location or place) ADD CONSTRAINT pk_building(location or place) PRIMARY KEY ( oid );
+ALTER TABLE department ADD CONSTRAINT pk_department PRIMARY KEY ( oid );
+ALTER TABLE dependent of employee ADD CONSTRAINT pk_dependent of employee PRIMARY KEY ( oid );
+ALTER TABLE employee ADD CONSTRAINT pk_employee PRIMARY KEY ( oid );
+ALTER TABLE employee_has_dependent of employee ADD CONSTRAINT pk_employee_has_dependent of employee PRIMARY KEY ( employee_oid ,dependent of employee_oid );
+ALTER TABLE engineer ADD CONSTRAINT pk_engineer PRIMARY KEY ( oid );
+ALTER TABLE office ADD CONSTRAINT pk_office PRIMARY KEY ( oid );
+ALTER TABLE project ADD CONSTRAINT pk_project PRIMARY KEY ( oid );
+ALTER TABLE project area ADD CONSTRAINT pk_project area PRIMARY KEY ( oid );
+ALTER TABLE project_work in_employee ADD CONSTRAINT pk_project_work in_employee PRIMARY KEY ( project_oid ,employee_oid );
+ALTER TABLE researcher ADD CONSTRAINT pk_researcher PRIMARY KEY ( oid );
+ALTER TABLE survey plan ADD CONSTRAINT pk_survey plan PRIMARY KEY ( oid );
+ALTER TABLE technician ADD CONSTRAINT pk_technician PRIMARY KEY ( oid );
+ALTER TABLE codelist_contract type ADD CONSTRAINT pk_codelist_contract type PRIMARY KEY ( oid );
+ALTER TABLE codelist_type of employee ADD CONSTRAINT pk_codelist_type of employee PRIMARY KEY ( oid );
+ALTER TABLE codelist_type of investment opportunities ADD CONSTRAINT pk_codelist_type of investment opportunities PRIMARY KEY ( oid );
+ALTER TABLE codelist_type of marketing ADD CONSTRAINT pk_codelist_type of marketing PRIMARY KEY ( oid );

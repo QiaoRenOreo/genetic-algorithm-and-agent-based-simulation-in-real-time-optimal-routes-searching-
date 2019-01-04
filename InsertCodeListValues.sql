@@ -1,0 +1,11 @@
+Insert into codelist_contract type (oid, value) VALUES ( 1, 'hourly');
+Insert into codelist_contract type (oid, value) VALUES ( 2, 'part time');
+Insert into codelist_contract type (oid, value) VALUES ( 3, 'full time');
+Insert into codelist_type of employee (oid, value) VALUES ( 1, 'assistant');
+Insert into codelist_type of employee (oid, value) VALUES ( 2, 'engineer');
+Insert into codelist_type of employee (oid, value) VALUES ( 3, 'technician');
+Insert into codelist_type of employee (oid, value) VALUES ( 4, 'researcher');
+Insert into codelist_type of investment opportunities (oid, value) VALUES ( 1, 'lease');
+Insert into codelist_type of investment opportunities (oid, value) VALUES ( 2, 'sale/purchase');
+Insert into codelist_type of marketing (oid, value) VALUES ( 1, 'residential');
+Insert into codelist_type of marketing (oid, value) VALUES ( 2, 'commercial');
