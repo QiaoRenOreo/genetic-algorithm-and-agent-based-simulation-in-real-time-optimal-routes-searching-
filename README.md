@@ -6,3 +6,7 @@ Traffic congestion is a big problem in a lot of cities in China, especially Shan
 
 ## Part2. Research question: 
 whether or not providing drivers with multiple routes will prevent the occurrence of new congestion?
+
+## Part3. Agent-based modelling and UML
+
+## Part4. Genetic algorithm
